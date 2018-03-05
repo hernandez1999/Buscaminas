@@ -1,12 +1,15 @@
 
 package buscaminas;
 
+import java.util.Random;
+
 public class Tablero {
     
     private Emoji miEmoji;
     private Crono miCronometro;
     private Contador miContador;
     private Celda[][] misCeldas;
+    Random llenado = new Random();
     
     public Tablero(int ancho, int largo){
         
@@ -25,3 +28,6 @@ public class Tablero {
         miTrabajador.sembrarCorazones(misCeldas,5);
     }
 }
+
+
+
