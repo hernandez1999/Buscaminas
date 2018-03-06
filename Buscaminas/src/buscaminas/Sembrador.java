@@ -7,7 +7,7 @@ public class Sembrador {
     
     void sembrarCorazones(Celda lasCeldas[][],int cantidad){
         
-        Random aleatorio=new Random(System.currentTimeMillis());
+        Random aleatorio=new Random();
         int coraAleatorio,sumatoria=0;
  
         for(Celda[] laFila:lasCeldas)
