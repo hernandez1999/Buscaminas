@@ -25,7 +25,7 @@ public class Tablero {
             }    
         }
         Sembrador miTrabajador=new Sembrador();
-        miTrabajador.sembrarCorazones(misCeldas,5);
+        miTrabajador.sembrarCorazones(misCeldas,3);
     }
 }
 

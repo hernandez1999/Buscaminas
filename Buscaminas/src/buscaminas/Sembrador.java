@@ -14,8 +14,8 @@ public class Sembrador {
         {
             for(Celda laCelda:laFila)
             {
-                coraAleatorio=aleatorio.nextInt(10);
-                if(coraAleatorio>5 && sumatoria<cantidad){
+                coraAleatorio=aleatorio.nextInt(9);
+                if(coraAleatorio>3 && sumatoria<cantidad){
                 Corazon unCorazon=new Corazon();
                 laCelda.setMiCorazon(unCorazon);
                 sumatoria++;

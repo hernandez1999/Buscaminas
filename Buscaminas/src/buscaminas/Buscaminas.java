@@ -6,7 +6,7 @@ public class Buscaminas {
     public static void main(String[] args) {
         
         Tablero miTablero;
-        miTablero = new Tablero(10,10);
+        miTablero = new Tablero(9,9);
     }
 }
 
