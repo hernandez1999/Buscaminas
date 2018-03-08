@@ -8,7 +8,7 @@ public class Tablero {
     private Emoji miEmoji;
     private Crono miCronometro;
     private Contador miContador;
-    private Celda[][] misCeldas;
+    public Celda[][] misCeldas;
     Random llenado = new Random();
     
     public Tablero(int ancho, int largo){

@@ -39,7 +39,4 @@ public class Celda {
     public void setCorazonesAlrededor(int corazonesAlrededor) {
         this.corazonesAlrededor = corazonesAlrededor;
     }
-    
-    
-
 }
